@@ -4,18 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sarah Kim is a Front-End web developer with experience in html, CSS, JavaScript, and Bootstrap."
+    />
+    <title>Sarah Kim Front-end Developer Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/053d005e8b.css"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styling.css" />
-    <title>Document</title>
   </head>
   <body>
-     <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">Sarah Kim</a>
         <button
@@ -46,33 +60,110 @@
         </div>
       </div>
     </nav>
-
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card">
-                 <img src="images/Sarah.jpg" alt="Sarah Profile Image" style="width:100%">
-                    <h1>Sarah Kim</h1>
-                    <p class="title">Front-End Web Developer </p>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <p><button>Contact</button></p>
-            </div>
-        </div>
-        <div class="col-md-6 intro">
-            <h2 class="tex-center mt-5">👋 Hi I am</h2>
-            <h1 class="tex-center">Sarah Kim</h1>
-            <h3 class="tex-center">
-            🇺🇸 Front-end developer, based in Atlanta, Georgia
-            </h3>
-            <div class="navigation-links mb-5">
-            <a href="about.html#contact" class="contact-link" title="Reach out"
+    <br />
+    <br />
+    <div class="overview">
+      <div class="hero">
+        <h2 class="text-center mt-5">Hello, I'm</h2>
+        <h1 class="text-center">Sarah Kim.</h1>
+        <h3 class="text-center">
+          🇺🇸 Front-end developer, based in Atlanta, Georgia
+        </h3>
+        <div class="navigation-links mb-5">
+          <a href="about.html#contact" class="contact-link" title="Reach out"
             >Contact me</a
-            >
-            <a href="about.html" class="about-link" title="Get to know Sarah"
+          >
+          <a href="about.html" class="about-link" title="Get to know Sarah"
             >About me</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!--1st Row-->
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="images/yoga.png"
+            class="img-fluid rounded"
+            alt="Yoga App Project Screenshot"
+          />
+        </div>
+        <div class="col-md-6">
+          <h4 class="mb-3 mt-5">Yoga App</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="mt-5 link-container">
+            <a href="#" class="primary-link" title="Go to Yoga app project"
+              >Launch Yoga App</a
             >
-            </div>
+          </div>
+        </div>
+      </div>
+      <!--2nd Row-->
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h4 class="mb-5">Weather App</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
+            odit? Officia voluptas eos, magni quae incidunt illo perspiciatis
+            soluta tempore temporibus, autem sint optio! Cupiditate iusto
+            accusamus placeat repellendus architecto!
+          </p>
+          <div class="mt-5 mb-5 link-container">
+            <a href="#" class="primary-link" title="Go to Weather app project"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 mb-5">
+          <img
+            src="images/weather.png"
+            class="img-fluid rounded"
+            alt="Weather App Project Screenshot"
+          />
+        </div>
       </div>
 
+      <!--3rd Row-->
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img
+            src="images/yogurt.png"
+            class="img-fluid rounded"
+            alt="Yogurt App Screenshot"
+          />
+        </div>
+        <div class="col-md-6 mt-5">
+          <h4 class="mb-3">Yogurt App</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="mt-5 link-container">
+            <a href="#" class="primary-link" title="Go to Yogurt app project"
+              >Launch Yogurt App</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2023 Copyright:
+        <p>Sarah Kim</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

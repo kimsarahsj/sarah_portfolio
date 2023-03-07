@@ -1,17 +1,146 @@
-* {
-  padding: 0%;
-  margin: 0%;
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --teriary-color: #e6dacf;
+  --quaternary-color: #54585d;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-0: "Playfair Display", serif;
+  --font-1: "Nanum Gothic", sans-serif;
 }
 body {
-  height: 100vh;
-  background: linear-gradient(
-    to right,
-    #e6dacf 0%,
-    #e6dacf 35%,
-    #fff 35%,
-    #fff 100%
-  );
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #fff;
+  color: #212529;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  color: #ffff;
+  text-shadow: 2px 2px 5px #000000;
+}
+h1 {
+  font-size: 96px;
+  font-family: var(--font-0);
+}
+h2 {
+  font-size: 48px;
+  font-family: var(--font-1);
+  display: block;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 24px;
+  font-family: var(--font-0);
+  font-style: italic;
+}
+h4 {
+  font-size: 48px;
+  display: block;
+  font-family: var(--font-1);
+}
+h5 {
+  font-size: 60px;
+  font-family: var(--font-0);
+  font-weight: 400;
+  font-style: italic;
+  display: block;
+  color: var(--quaternary-color);
+  text-align: center;
+}
+h6 {
+  font-size: 24px;
+  font-family: var(--font-0);
+  font-style: italic;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--font-1);
+  font-weight: 700;
+  color: var(--quaternary-color);
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.navigation-links {
   display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navbar {
+  font-family: var(--font-1);
+}
+.contact-link,
+.about-link {
+  background: var(--teriary-color);
+  box-shadow: var(--box-shadow);
+  color: #54585d;
+}
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.about-paragraphs {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+  background: #e6dacf;
+  box-shadow: var(--box-shadow);
+  color: #54585d;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.link-container {
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.mt-5 {
+  margin-top: 3rem !important;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.p-2 {
+  padding: 0.5rem !important;
 }
 button {
   border: none;
@@ -25,13 +154,11 @@ button {
   width: 100%;
   font-size: 18px;
 }
-
 a {
   text-decoration: none;
   font-size: 22px;
   color: black;
 }
-
 button:hover,
 a:hover {
   opacity: 0.7;
@@ -39,7 +166,7 @@ a:hover {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: 20%;
+  margin-bottom: 20px;
   text-align: center;
 }
 .title {
@@ -52,4 +179,59 @@ a:hover {
 .intro {
   text-align: center;
   align-items: center;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.overview {
+  background-image: url("images/pexels-andrew-neel-2312369.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+}
+.overview-1 {
+  background-image: url("images/pexels-life-of-pix-7974.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+}
+.hero {
+  border-bottom: 25px solid white;
+  padding: 20px;
+  gap: 30px;
+  background-color: hsla(243, 89%, 63%, 0.192);
+}
+.hero-1 {
+  border-bottom: 25px solid white;
+  padding: 20px;
+  gap: 30px;
+  background-color: hsla(243, 89%, 63%, 0.192);
+}
+.page-footer {
+  background-color: var(--bs-tertiary-bg);
+}
+
+@media (max-width: 576px) {
+  p {
+    padding: 1% 3% 1% 3%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 76px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 36px;
+  }
+  h5 {
+    font-size: 40px;
+  }
+  h6 {
+    font-size: 20px;
+  }
 }
