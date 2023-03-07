@@ -45,9 +45,9 @@ h3 {
   font-style: italic;
 }
 h4 {
-  font-size: 48px;
+  font-size: 28px;
   display: block;
-  font-family: var(--font-1);
+  font-family: var(--font-0);
 }
 h5 {
   font-size: 60px;
@@ -73,6 +73,13 @@ p {
 img {
   overflow-clip-margin: content-box;
   overflow: clip;
+}
+.nav-link {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--font-1);
+  font-weight: 400;
+  color: var(--quaternary-color);
 }
 .navigation-links {
   display: flex;
@@ -114,7 +121,7 @@ img {
 .email-link {
   display: flex;
   justify-content: center;
-  font-size: 28px;
+  font-size: 18px;
   text-decoration: none;
   background: #e6dacf;
   box-shadow: var(--box-shadow);
@@ -183,7 +190,7 @@ a:hover {
 }
 .title {
   color: grey;
-  font-size: 18px;
+  font-size: 16px;
 }
 .navbar {
   background: #ffffff;
@@ -208,19 +215,20 @@ a:hover {
   background-size: cover;
 }
 .hero {
-  border-bottom: 25px solid white;
   padding: 20px;
+  margin-bottom: 25px;
   gap: 30px;
   background-color: hsla(243, 89%, 63%, 0.192);
 }
 .hero-1 {
-  border-bottom: 25px solid white;
   padding: 20px;
+  margin-bottom: 25px;
   gap: 30px;
   background-color: hsla(243, 89%, 63%, 0.192);
 }
 .page-footer {
   background-color: var(--bs-tertiary-bg);
+  margin-top: 25px;
 }
 .typing {
   font-weight: 700;

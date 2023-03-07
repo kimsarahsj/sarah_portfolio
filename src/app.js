@@ -1,6 +1,6 @@
 var textWrapper = document.querySelector(".typing .letters");
 textWrapper.innerHTML = textWrapper.textContent.replace(
-  /([^\x00-\x90]|\w)/g,
+  /([^\x00-\x100]|\w)/g,
   "<span class='letter'>$&</span>"
 );
 
