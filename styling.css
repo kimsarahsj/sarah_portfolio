@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #bda792;
   --secondary-color: #f5f2fe;
   --teriary-color: #e6dacf;
   --quaternary-color: #54585d;
@@ -147,7 +147,7 @@ img {
   text-align: center;
 }
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #fff !important;
 }
 .mt-5 {
   margin-top: 3rem !important;
@@ -218,16 +218,16 @@ a:hover {
   padding: 20px;
   margin-bottom: 25px;
   gap: 30px;
-  background-color: hsla(243, 89%, 63%, 0.192);
+  background-color: hsla(41, 23%, 45%, 0.192);
 }
 .hero-1 {
   padding: 20px;
   margin-bottom: 25px;
   gap: 30px;
-  background-color: hsla(243, 89%, 63%, 0.192);
+  background-color: hsla(41, 23%, 45%, 0.192);
 }
 .page-footer {
-  background-color: var(--bs-tertiary-bg);
+  background-color: #fff;
   margin-top: 25px;
 }
 .typing {
