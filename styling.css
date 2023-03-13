@@ -258,7 +258,7 @@ a:hover {
   display: inline-block;
   line-height: 1em;
 }
-@media (max-width: 576px) {
+@media (max-width: 650px) {
   p {
     padding: 1% 3% 1% 3%;
     text-align: center;
@@ -280,5 +280,16 @@ a:hover {
   }
   h6 {
     font-size: 20px;
+  }
+  h1,
+  .letter,
+  .text-wrapper,
+  .letters .line,
+  .line1 {
+    font-size: 76px;
+    font-family: var(--font-0);
+  }
+  .hero {
+    padding: 3px;
   }
 }
