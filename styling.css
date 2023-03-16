@@ -74,12 +74,9 @@ img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
-.nav-link {
-  font-size: 18px;
-  line-height: 1.5;
-  font-family: var(--font-1);
-  font-weight: 400;
-  color: var(--quaternary-color);
+.navbar {
+  font-family: var(--font-1) !important;
+  text-transform: uppercase;
 }
 .navigation-links {
   display: flex;
@@ -94,12 +91,10 @@ img {
   text-transform: uppercase;
   font-size: 18px;
 }
-.navbar {
-  font-family: var(--font-1);
-}
 .logo {
-  max-width: 150px;
+  max-width: 100px;
 }
+
 .contact-link,
 .about-link,
 .projects-link {
@@ -107,7 +102,6 @@ img {
   box-shadow: var(--box-shadow);
   color: #54585d;
 }
-
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -160,6 +154,9 @@ img {
 }
 .p-2 {
   padding: 0.5rem !important;
+}
+.down {
+  padding-top: 10px;
 }
 button {
   border: none;
@@ -262,6 +259,7 @@ a:hover {
   p {
     padding: 1% 3% 1% 3%;
     text-align: center;
+    font-size: 16px;
   }
   h1 {
     font-size: 76px;
@@ -291,5 +289,54 @@ a:hover {
   }
   .hero {
     padding: 3px;
+  }
+  .contact-link,
+  .about-link,
+  .projects-link,
+  .primary-link {
+    font-size: 16px;
+  }
+}
+@media (max-width: 393px) {
+  p {
+    padding: 1% 3% 1% 3%;
+    text-align: center;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  h1,
+  .letter,
+  .text-wrapper,
+  .letters .line,
+  .line1 {
+    font-size: 46px;
+    text-align: center;
+  }
+  .hero {
+    padding: 3px;
+  }
+  .contact-link,
+  .about-link,
+  .projects-link,
+  .primary-link {
+    font-size: 12px !important;
+    text-align: center;
   }
 }
