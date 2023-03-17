@@ -149,6 +149,22 @@ a:hover {
 .about-image {
   border-radius: 50px;
 }
+/*About Me Portfolio Section*/
+.brand-icons {
+  font-size: 26px;
+}
+.fa-html5 {
+  color: #dc4d2e;
+}
+.fa-css3-alt {
+  color: #3895cc;
+}
+.fa-square-js {
+  color: #e8d45c;
+}
+.fa-bootstrap {
+  color: #533b76;
+}
 /*Contact Me page & Contact Card*/
 .email-link {
   display: flex;
