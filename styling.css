@@ -3,6 +3,7 @@
   --secondary-color: #f5f2fe;
   --teriary-color: #e6dacf;
   --quaternary-color: #54585d;
+  --quinary-color: #b0dedbb7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font-0: "Playfair Display", serif;
   --font-1: "Nanum Gothic", sans-serif;
@@ -56,9 +57,9 @@ h5 {
   text-align: center;
 }
 h6 {
-  font-size: 24px;
+  font-size: 46px;
   font-family: var(--font-0);
-  font-style: italic;
+  font-weight: 500;
 }
 p {
   font-size: 18px;
@@ -247,6 +248,25 @@ a:hover {
   background-color: #fff;
   margin-top: 25px;
 }
+.work-inquiry {
+  background: var(--quinary-color);
+  padding: 3%;
+  border-radius: 10px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.work-heading {
+  padding-left: 15%;
+}
+.work-btn {
+  padding-right: 15%;
+  padding-top: 2%;
+}
+.work-btn a:hover {
+  opacity: 0.8;
+  background-color: var(--primary-color);
+  color: #f5ede9;
+}
 /*Media Queries*/
 @media (max-width: 650px) {
   p {
@@ -270,7 +290,7 @@ a:hover {
     font-size: 40px;
   }
   h6 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .hero {
     padding: 3px;
@@ -282,14 +302,14 @@ a:hover {
     font-size: 16px;
   }
 }
-@media (max-width: 393px) {
+@media (max-width: 394px) {
   p {
     padding: 1% 3% 1% 3%;
     text-align: center;
     font-size: 14px;
   }
   h1 {
-    font-size: 56px;
+    font-size: 40px;
   }
   h2 {
     font-size: 26px;
@@ -299,21 +319,15 @@ a:hover {
   }
   h4 {
     font-size: 22px;
+    text-align: center !important;
   }
   h5 {
     font-size: 30px;
   }
   h6 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
-  h1,
-  .letter,
-  .text-wrapper,
-  .letters .line,
-  .line1 {
-    font-size: 46px;
-    text-align: center;
-  }
+
   .hero {
     padding: 3px;
   }
@@ -323,5 +337,19 @@ a:hover {
   .primary-link {
     font-size: 12px !important;
     text-align: center;
+  }
+  .work-inquiry {
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  .work-heading {
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+  .work-btn {
+    padding-right: 5%;
+    padding-top: 6%;
   }
 }
